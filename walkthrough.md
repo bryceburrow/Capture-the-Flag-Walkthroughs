@@ -2,6 +2,7 @@
 
 After starting the machine up by clicking "Start Machine" the first thing I think to do is run an nmap scan.
 
+## Enumeration
 The scan I used was sudo nmap -sV -sC -T5 -p- $ip -oN ~/Github/BasicPentestingCTF/nmapscan.md
 
 -sV - searches for the versions of the services running
@@ -21,9 +22,8 @@ dir - sets the scan type to scan for directories
 
 in our scan we have found a directory called /development
 
-===============================================================
 2022/06/18 19:27:11 Starting gobuster in directory enumeration mode
-===============================================================
+
 /development          (Status: 301) [Size: 316] [--> http://10.10.51.32/development/]
 Progress: 756 / 220561 (0.34%)                                                  Progress: 930 / 220561 (0.42%)    
 
@@ -42,7 +42,7 @@ now that we have these users we can fill out the next question
 
 What is the username?
 jan
-
+## Password Cracking
 now that we have a username we can try brute forcing for a password
 
 port 22 is open so I will try brute forcing ssh using hydrda
@@ -64,7 +64,7 @@ when going into the kay's directory there is another file called pass.bak
 we are not able to cat out the file because of our permission level
 
 after running ls -la for the full details of the files in kay's directory
-
+## Final Flag
 there is a hidden file named .viminfo
 
 using this info we may be able to open the pass.bak file using vim
