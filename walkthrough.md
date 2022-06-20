@@ -72,7 +72,7 @@ sudo is not a part of the disabled commands so we can try using "sudo ls" to see
 
 when trying to cd into the root directory it will not let me > cd /root
 
-# What is the final ingredient Rick needs?
+### What is the final ingredient Rick needs?
 
 since we are able to use sudo commands we can use sudo ls ../../../../* > "../../../../" is able to move us back directories until we get to the base directory > the use of "*" allows us to ls all of the directories in the base directory.
 
