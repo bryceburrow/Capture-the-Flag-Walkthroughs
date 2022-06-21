@@ -37,6 +37,8 @@ hydra -t 16 -l lin -P /home/bryce/Github/BountyHackerCTF/locks.txt ssh://IP
 
 then we get the password: RedDr4gonSynd1cat3
 
+![Hydra Results](hydraresult.png)
+
 ### user.txt
 
 After connecting to SSH with the credentials we had found
