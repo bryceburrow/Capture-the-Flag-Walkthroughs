@@ -6,7 +6,11 @@ All of these CTFs are in TryHackMe unless stated otherwise. If I decide to start
 ![AgentSudoCTF](https://github.com/bryceburrow/Capture-the-Flag-Walkthroughs/tree/AgentSudoCTF)
 
 ![Basic-Pentesting-CTF](https://github.com/bryceburrow/Capture-the-Flag-Walkthroughs/tree/Basic-Pentesting-CTF)
+
 ![BountyHackerCTF](https://github.com/bryceburrow/Capture-the-Flag-Walkthroughs/tree/BountyHackerCTF)
+
 ![PickleRickCTF](https://github.com/bryceburrow/Capture-the-Flag-Walkthroughs/tree/PickleRickCTF)
+
 ![RootMeCTF](https://github.com/bryceburrow/Capture-the-Flag-Walkthroughs/tree/RootMeCTF)
+
 ![SimpleCTF](https://github.com/bryceburrow/Capture-the-Flag-Walkthroughs/tree/SimpleCTF)
