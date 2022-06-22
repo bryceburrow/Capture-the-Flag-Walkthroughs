@@ -19,4 +19,4 @@ All of these CTFs are in TryHackMe unless stated otherwise. If I decide to start
 
 ![IgniteCTF](https://github.com/bryceburrow/Capture-the-Flag-Walkthroughs/tree/IgniteCTF)
 
-![tomghost](https://github.com/bryceburrow/Capture-the-Flag-Walkthroughs/tree/tomghostCTF)
+![tomghostCTF](https://github.com/bryceburrow/Capture-the-Flag-Walkthroughs/tree/tomghostCTF)
